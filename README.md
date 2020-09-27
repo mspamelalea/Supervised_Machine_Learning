@@ -1,7 +1,7 @@
 # Supervised_Machine_Learning
 
 # Evaluating Credit Risk
-The growth of personal lending in 2019 has may lending firms using machine learning techniques to evaluate and predict credit risk.  Here, we will use four machine learning algorithms for an analysis of a dataset with over 68,000 rows of loan data. For each model, we resample the data to address class imbalance (low- vs. high-risk) and train a logistic regression classifier (from Scikit-learn) using the resampled data. Then we calculate a balanced accuracy score using balanced_accuracy_score from sklearn.metrics. A confusion_matrix is generated for each model and a classification report (classification_report_imbalanced from imblearn.metrics) created.
+The growth of personal lending in 2019 has many lending firms using machine learning techniques to evaluate and predict credit risk.  Here, we will use four machine learning algorithms for an analysis of a dataset with over 68,000 rows of loan data. For each model, we resample the data to address class imbalance (low- vs. high-risk) and train a logistic regression classifier (from Scikit-learn) using the resampled data. Then we calculate a balanced accuracy score using balanced_accuracy_score from sklearn.metrics. A confusion_matrix is generated for each model and a classification report (classification_report_imbalanced from imblearn.metrics) is created.
 
 ## Testing Results From the Four Models
 
@@ -10,6 +10,7 @@ The growth of personal lending in 2019 has may lending firms using machine learn
 - 0.6585 -> SMOTE Oversampling
 - 0.5443 -> Cluster Centroids Undersampling   
 - 0.6622 -> SMOTEEN Combo Over/Under Sampling 
+
 The accuracy score shows the accuracy of correct predictions.  The Cluster Centroid has the worst score. The other models, while similar in score, show the SMOTEEN model to be slightly superior.
 
 ### Precision
